@@ -9,9 +9,9 @@ Inspired by [The Odin Project](https://www.theodinproject.com/lessons/node-path-
 
 ## Assignment
 
-- [ ] A `capitalize` function that takes a string and returns that string with the first character capitalized.
-- [ ] A `reverseString` function that takes a string and returns it reversed.
-- [ ] A `calculator` object that contains the basic operations: `add`, `subtract`, `divide`, and `multiply`.
+- [x] A `capitalize` function that takes a string and returns that string with the first character capitalized.
+- [x] A `reverseString` function that takes a string and returns it reversed.
+- [x] A `calculator` object that contains the basic operations: `add`, `subtract`, `divide`, and `multiply`.
 - [ ] A `caesarCipher` function that implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
 - [ ] A `arrayAnalysis` function that takes an array of numbers and returns an object with the following properties:
 `average`, `min`, `max`, and `length`.

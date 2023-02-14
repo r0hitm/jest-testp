@@ -1,19 +1,21 @@
 const calculator = require('./calculator');
 
-test('call calculator w/ 4,2', () => {
-    expect(calculator(4,2)).toBe({
-        add: 6,
-        subtract: 2,
-        multiply: 8,
-        divide: 2
-    });
+test('calculator: add 4 + 2 to be 6', () => {
+    expect(calculator.add(4,2)).toBe(6);
 });
 
-test('call calculator w/ 4,0', () => {
-    expect(calculator(4,0)).toBe({
-        add: 4,
-        subtract: 4,
-        multiply: 0,
-        divide: NaN
-    });
+test('calculator: subtract 4 - 2 to be 2', () => {
+    expect(calculator.subtract(4,2)).toBe(2);
+});
+
+test('calculator: multiply 4 * 2 to be 8', () => {
+    expect(calculator.multiply(4,2)).toBe(8);
+});
+
+test('calculator: divide 4 / 2 to be 2', () => {
+    expect(calculator.divide(4,2)).toBe(2);
+});
+
+test('calculator: divide 4 / 0 to be Infinity', () => {
+    expect(calculator.divide(4,0)).toBe(Infinity);
 });
